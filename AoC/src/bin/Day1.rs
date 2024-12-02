@@ -15,7 +15,7 @@ fn calculate_total_distance(left_list: &mut Vec<i32>, right_list: &mut Vec<i32>)
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Open the input file
-    let file = File::open("C:\\Users\\mvppr\\Documents\\AoC_2024\\AoC\\src\\bin\\input.txt")?;
+    let file = File::open("C:\\Users\\mvppr\\Documents\\AoC_2024\\AoC\\src\\bin\\inputs\\Day1.txt")?;
     let reader = BufReader::new(file);
 
     // Parse input into left and right lists
